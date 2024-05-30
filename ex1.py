@@ -1,6 +1,6 @@
 import pandas as pd
 
-# Încarca dataset-ul
+# Incarca dataset-ul
 file_path = 'train.csv'
 data = pd.read_csv(file_path)
 
