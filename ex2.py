@@ -8,7 +8,7 @@ data = pd.read_csv(file_path)
 # Determina procentul persoanelor care au supravietuit si procentul persoanelor care nu au supravietuit
 survival_counts = data['Survived'].value_counts(normalize=True) * 100
 
-# Determina procentul pasagerilor pentru fiecare tip de clasa (coloana Pclass)
+# Determina procentul pasagerilor pentru fiecare tip de clasa
 class_counts = data['Pclass'].value_counts(normalize=True) * 100
 
 # Determina procentul barbatilor si al femeilor
