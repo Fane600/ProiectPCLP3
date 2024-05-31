@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Incarca dataset-ul
-file_path = 'train.csv'  # Modifica aceasta cale daca fisierul este intr-o alta locatie
+file_path = 'train.csv'
 data = pd.read_csv(file_path)
 
 # Completeaza varsta lipsa cu media pasagerilor din aceeasi clasa care au supravietuit
